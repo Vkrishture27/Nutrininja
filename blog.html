@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> NutriNinja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.gogleeapics.com/css2?2family=poppins: wght@100;200;300;400;600;700&display=swap"  rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <!---  <a href="index.html"><img src="images/"></a>--->
+          <div class="nav-links" id="nav-inks">
+            <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+            <ul><h4>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Register.html">Register/Login</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="Our-Services.html">Our-Services</a></li>
+                <li><a href="blog.html">Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="startfoodselection.html">Food</a></li></h4>
+              </ul> 
+          </div>  
+          <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Menu</h1>
+</section>
+    <!--------------blog page contents--------->
+ 
+<section class="blog-content">
+    <div class="row">
+       <div class="blog-left">
+      <!-------  <img src="images/ffoodd.jpg">-->
+      
+        <h1>MENU CARD</h1>
+        <p><h2> Expedence NutriNinja's Mighty Fruit Roll-Up Adventure: a colorful blend of handpicked fruits and soft whole-grain rolls,
+             offering a fiber-rich, vitamin-packed delight. Our fun presentation invites hands-on exploration, turning mealtime into an exciting and nutritious adventure for kids.
+             Choose NutriNinja for a parent-approved, wholesome, and delicious dining experience!</h2></p>
+             <!-- <br>
+             <p>This is a great way to get your kids involved in cooking from an early age. They can learn about different 
+                ingred or side dish makes a crispy complement to any Italian entree. I just started with my grandmother’s
+                bruschetta recipe and added fresh tomatoes! Its one of the yummiest bruschetta recipes
+                Ive found. —Jean Franzoni, Rutland, Vermont</p>
+            <br>
+            <p>Ravioli on a stick is a tasty appetizer everyone talks about. They’re simple and fun to make and eat. Use 
+                packaged dipping sauces, or make your own. Get my recipes on my blog, thehopelesshousewife.com. 
+                —Erika Monroe-Williams, Scottsdale, Arizona.Ravioli on a stick is a tasty appetizer everyone talks about. 
+                They’re simple and fun to make and eat. Use packaged dipping sauces, or make your own. Get my recipes on my
+                 blog, thehopelesshousewife.com. —Erika Monroe-Williams, Scottsdale, Arizona</p> -->
+             
+                 <div class="comment-box">
+
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name*">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <textarea cols="20" rows="5" placeholder="Specify any allergy" ></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>                 
+                 </div>
+            </div> 
+       <div class="blog-right">
+        <h3>Post category</h3>
+        <div>
+            <span>Dosa</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Puri</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Salad</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Khichadi</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Chapati</span>
+            <span>42</span>
+        </div>
+        <div>
+            <span>Pulav</span>
+            <span>22</span>
+        </div>
+        <div>
+            <span>Rice and Samber</span>
+            <span>30</span>
+        </div>
+        
+        </div>
+       </div>
+    </div>
+</section>
+<!------------------new content---------------->
+
+
+<!----------------footer------------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At NutriNinja, we're not just meal providers; we're storytellers, 
+        turning every bite into a magical tale of health and joy. Dive into 
+        our story and discover the magic behind the meals</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i> 
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-skype"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>Made with <i class="fa fa-heart-o"></i> by NutriNinja</p>
+        </div>
+</section>
+
+<!---------java script to toggle menu --------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+
+</body>
+</html>

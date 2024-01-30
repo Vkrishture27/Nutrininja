@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> NutriNinja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.gogleeapics.com/css2?2family=poppins: wght@100;200;300;400;600;700&display=swap"  rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="images/"></a>
+          <div class="nav-links" id="nav-inks">
+            <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+            <ul><h4>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Register.html">Register/Login</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="Our-Services.html">Our-Services</a></li>
+                <li><a href="blog.html">Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="startfoodselection.html">Food</a></li></h4>
+              </ul> 
+          </div>  
+          <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+</section>
+    <!--------------about us content--------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+        <h1>We Grow Healthy Living</h1>
+        <p><h3>Our Story:</h3> 
+            "At NutriNinja, we're not just meal providers; we're storytellers, turning every bite into a magical tale of health and joy. Dive into our story and discover the magic behind the meals."
+            
+
+           <h3> Mission and Values:</h3>
+            "We're on a mission to sprinkle joy and good health into every child's life. Our values? Imagine, Create, Nourish, Repeat!"
+             </p>
+             <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+             </div>
+        <div class="about-col">
+            <img src="images/abouttt.jpg">
+        </div>
+    </div>
+</section>
+
+<!----------------footer------------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>"At NutriNinja, we're not just meal providers; we're storytellers, 
+        turning every bite into a magical tale of health and joy. Dive into our 
+        story and discover the magic behind the meals."</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i> 
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-skype"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>Made with <i class="fa fa-heart-o"></i> by NutriNinja</p>
+        </div>
+</section>
+
+<!---------java script to toggle menu --------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+
+</body>
+</html>

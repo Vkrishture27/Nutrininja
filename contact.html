@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> NutriNinja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.gogleeapics.com/css2?2family=poppins: wght@100;200;300;400;600;700&display=swap"  rel="stylesheet">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+         <!--- <a href="index.html"><img src="images/"></a>--->
+          <div class="nav-links" id="nav-inks">
+            <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+            <ul><h4>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Register.html">Register/Login</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="Our-Services.html">Our-Services</a></li>
+                <li><a href="blog.html">Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="startfoodselection.html">Food</a></li></h4>
+              </ul> 
+          </div>  
+          <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Contact us</h1>
+</section>
+    <!--------------Our-Services us--------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.84916296526!2d77.63093950000001!3d12.953997400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1701914251127!5m2!1sen!2sin" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section class="Our-Services-us">
+    <div class="row">
+        <div class="Our-Services-col">
+           <div>
+            <i class="fa fa-home"></i>
+            <span>
+               <h5> Magical Mail Box:</h5> 
+               <p>Bangalore karnataka</p>
+            </span> 
+           </div>
+           <div>
+            <i class="fa fa-phone"></i>
+            <span>
+               <h5> +91 8217045634 </h5> 
+               <p>Monday to Saturday 10am to 7pm</p>
+            </span> 
+           </div>
+           <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+               <h5> nutrininja@gmail.com </h5> 
+               <p>email us your query</p>
+            </span> 
+           </div>
+        </div>
+        <div class="Our-Services-col">
+     <form class="form-handeler.php"method="Post">
+    <input type="text" name="name"placeholder="Enter your name"required>
+    <input type="email"name="email" placeholder="Enter email address"required>
+    <input type="text"name="subject" placeholder="Enter your subject"required>
+    <textarea rows="8" name="message"placeholder="message"required></textarea>
+    <button type="submit" class="hero-btn red-btn">Send message</button>
+    </form>     
+
+
+
+        </div>
+    </div>
+<section>
+
+
+
+</section>
+
+<!----------------footer------------>
+
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p></p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i> 
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-skype"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>Made with <i class="fa fa-heart-o"></i> by NutriNinja</p>
+        </div>
+</section>
+
+<!---------java script to toggle menu --------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+
+</body>
+</html>
